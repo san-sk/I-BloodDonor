@@ -1,0 +1,46 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "dependencies": {
+    "@progress/kendo-licensing": "^1.1.0",
+    "@progress/kendo-react-listview": "^4.1.0",
+    "axios": "^0.18.1",
+    "bootstrap": "^3.4.1",
+    "moment": "^2.18.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^0.31.5",
+    "react-bootstrap-datetimepicker": "0.0.22",
+    "react-dom": "^17.0.1",
+    "react-google-autocomplete": "^1.0.18",
+    "react-intl-tel-input": "^4.2.0",
+    "react-modal": "^2.3.2",
+    "react-router": "^3.0.0",
+    "react-scripts": "^4.0.1",
+    "react-select": "^1.0.0-rc.6",
+    "react-validation": "^2.10.9",
+    "reactstrap": "^6.5.0",
+    "validator": "^8.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "prettier": "^1.16.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
