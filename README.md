@@ -5,9 +5,10 @@ thanks to Avanthika meenakshi https://github.com/AvanthikaMeenakshi/uthiramapp.
 
 
 
-Starting node-server from /server/config/db-config.js:
+Starting node-server from /server:
 
-    Import idonor.sql into MySQL server. If needed, find the following lines in your server/app.js and modify it as per your configuration.
+    Import idonor.sql into MySQL server. 
+    If needed, find the following lines in your server/config/db-config.js: and modify it as per your configuration.
 
     var connection = mysql.createConnection({
       host: 'localhost',   //hostname
@@ -22,5 +23,6 @@ Starting node-server from /server/config/db-config.js:
 Starting the react application from /client:
 
     From the root directory, go to frontend folder. Do npm install in the frontend folder.
-    Do npm start and the client will be started at localhost:3000. The proxy is already configured to make all the requests to localhost:4000.
+    Do npm start and the client will be started at localhost:3000. 
+    The proxy is already configured to make all the requests to localhost:4000.
 
